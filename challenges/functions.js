@@ -6,6 +6,10 @@
   * The last parameter accepts a callback 
   * In the body of the function return the callback with the two parameters that you created
 */
+function hoFunc(num1, num2, cb) {
+  return cb(num1, num2); 
+}
+
 
 
 /* Step 2: Create several functions to callback with consume();
